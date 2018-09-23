@@ -1,0 +1,16 @@
+node_modules/
+.sass-cache/
+.cache
+*.css.map
+assets/
+reference/
+design/
+dist/*
+dist/**/*
+.vscode
+Icon
+package-lock.json
+wp-admin/
+wp-includes/
+wp-content/plugins
+wp-content/uploads
