@@ -8,3 +8,247 @@ Template: perfect-portfolio
 Version: 1.0
 */
 @import url("../perfect-portfolio/style.css");
+table tr th {
+  background: #971f34; }
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background: #971f34; }
+
+a {
+  color: #971f34; }
+
+a:hover {
+  color: #971f34; }
+
+.widget a:hover {
+  color: #971f34; }
+
+.btn-readmore:hover {
+  background: #971f34; }
+
+.comment-body .comment-awaiting-moderation {
+  color: #971f34; }
+
+.comment-body .reply .comment-reply-link:hover {
+  color: #971f34; }
+
+.comment-respond .comment-reply-title a:hover {
+  background: #971f34; }
+
+a.page-numbers:hover,
+span.page-numbers.current {
+  border-color: #971f34;
+  background: #971f34; }
+
+.back-to-top:hover {
+  background: #971f34; }
+
+.main-navigation .nav-menu li:hover > a,
+.main-navigation .nav-menu li.current-menu-item > a,
+.main-navigation .nav-menu li.current_page_item > a {
+  color: #971f34; }
+
+.text-holder .gal-title a:hover {
+  color: #971f34; }
+
+.text-holder a.gal-readmore:hover {
+  background: #971f34; }
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #971f34; }
+
+.widget_raratheme_companion_cta_widget > div {
+  background: #971f34; }
+
+.left-content .article-section a.btn-readmore:hover {
+  color: #971f34; }
+
+.entry-meta a:hover {
+  color: #971f34; }
+
+.widget_rrtc_description_widget .social-profile li a:hover {
+  background: #971f34; }
+
+.widget_rtc_social_links ul li a:hover {
+  background: #971f34; }
+
+.bottom-footer a:hover {
+  color: #971f34; }
+
+.bottom-footer .foot-social a:hover {
+  color: #971f34; }
+
+.slider .owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #971f34; }
+
+.entry-title a:hover {
+  color: #971f34; }
+
+.tags a:hover {
+  background: #971f34; }
+
+.single-post .about-author .author-social a:hover {
+  background: #971f34; }
+
+.widget_author .author-social a:hover {
+  background: #971f34; }
+
+.widget_tag_cloud .tagcloud a:hover {
+  background: #971f34; }
+
+.author .page-header .author-info-wrap .author-social a:hover {
+  background: #971f34; }
+
+.site-header .tc-wrapper {
+  display: flex;
+  align-items: center; }
+.site-header .header-r {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: flex-end; }
+  .site-header .header-r .cart {
+    margin: 0px 10px; }
+  .site-header .header-r .social-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    line-height: 50px;
+    text-align: center;
+    background: transparent;
+    color: #971f34;
+    border-radius: 100%;
+    font-size: 22px !important;
+    font-weight: 400;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px; }
+    .site-header .header-r .social-button cart svg {
+      width: 1.125em; }
+    @media (max-width: 700px) {
+      .site-header .header-r .social-button {
+        display: none; } }
+.site-header .site-branding {
+  display: flex; }
+.site-header img {
+  width: 250px;
+  min-width: 170px;
+  transition: 300ms ease;
+  transform: scale(1); }
+  .site-header img:hover {
+    transform: scale(1.05); }
+
+/*================================
+=            HOMEPAGE            =
+=================================*/
+#page #menu-item-29 a {
+  pointer-events: none;
+  color: #212121; }
+
+/*===============================
+=            SIDEBAR            =
+================================*/
+.main-navigation .nav-menu li.current-menu-item > a,
+.main-navigation .nav-menu li.current_page_item > a {
+  color: #971f34; }
+
+.bottom-footer {
+  display: none; }
+
+.menu-search {
+  display: none; }
+
+.menu-social {
+  display: flex;
+  justify-content: space-around; }
+  .menu-social .social-icons {
+    display: flex; }
+    .menu-social .social-icons a {
+      background: #971f34; }
+      .menu-social .social-icons a:hover {
+        background: #212121; }
+
+#n2-ss-2-align {
+  max-width: 10000px !important; }
+
+.woocommerce a.button {
+  background-color: #971f34;
+  color: white; }
+  .woocommerce a.button:hover {
+    background-color: #212121;
+    color: white; }
+.woocommerce ul.products[class*="columns-"] li.product,
+.woocommerce .woocommerce-page ul.products[class*="columns-"] li.product {
+  min-width: 280px !important; }
+.woocommerce .woocommerce-result-count {
+  display: none; }
+.woocommerce select.orderby {
+  display: none; }
+.woocommerce .products {
+  display: flex;
+  justify-content: center; }
+
+.top-footer {
+  background-color: #971f34;
+  background-image: url("https://www.transparenttextures.com/patterns/random-grey-variations.png"); }
+  .top-footer .tc-wrapper {
+    display: block;
+    align-items: center;
+    position: relative; }
+    .top-footer .tc-wrapper .col {
+      overflow: visible; }
+    .top-footer .tc-wrapper .cookout-logo {
+      position: absolute;
+      width: 40%;
+      bottom: 0;
+      right: -45px; }
+  .top-footer h2.widget-title {
+    display: none; }
+  .top-footer iframe {
+    width: 60%;
+    opacity: 0.85; }
+
+.header-r .cart {
+  background: transparent;
+  color: #212121; }
+  .header-r .cart:hover {
+    background: transparent;
+    color: #212121; }
+    .header-r .cart:hover .number {
+      background: transparent; }
+  .header-r .cart .number {
+    background: #971f34; }
+.header-r span.toggle-btn {
+  background: transparent; }
+  .header-r span.toggle-btn:hover {
+    background: transparent; }
+  .header-r span.toggle-btn svg {
+    color: #971f34; }
+
+@media (max-width: 700px) {
+  .thing-wrap:first-of-type {
+    display: block; } }
+@media (max-width: 700px) {
+  .thing-wrap:nth-of-type(2) {
+    margin-bottom: 75px; } }
+
+/*=============================
+=            ABOUT            =
+==============================*/
+.page-id-259 .entry-title {
+  margin-bottom: 20px !important; }
+
+.entry-title,
+.woocommerce-loop-product__title {
+  font-family: "Permanent Marker" !important; }
+
+#post-259 .tc-wrapper {
+  max-width: 900px;
+  padding: 0px 15px; }
+  #post-259 .tc-wrapper a {
+    font-weight: 500;
+    color: #971f34; }

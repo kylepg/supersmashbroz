@@ -9,4 +9,224 @@ Version: 1.0
 */
 
 @import url("../perfect-portfolio/style.css");
+@import "green-fix.scss";
+$red: #971f34;
+.site-header {
+	.tc-wrapper {
+		display: flex;
+		align-items: center;
+	}
 
+	.header-r {
+		display: flex;
+		margin: 0;
+		align-items: center;
+		justify-content: flex-end;
+		.cart {
+			margin: 0px 10px;
+		}
+		.social-button {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			vertical-align: middle;
+			line-height: 50px;
+			text-align: center;
+			background: transparent;
+			color: $red;
+			border-radius: 100%;
+			font-size: 22px !important;
+			font-weight: 400;
+			width: 50px;
+			height: 50px;
+			margin: 0px 10px;
+			cart svg {
+				width: 1.125em;
+			}
+			@media (max-width: 700px) {
+				display: none;
+			}
+		}
+	}
+	.site-branding {
+		display: flex;
+	}
+	img {
+		width: 250px;
+		min-width: 170px;
+		transition: 300ms ease;
+		transform: scale(1);
+		&:hover {
+			transform: scale(1.05);
+		}
+	}
+}
+
+/*================================
+=            HOMEPAGE            =
+=================================*/
+
+#page {
+	.woocommerce-ordering {
+	}
+	#menu-item-29 {
+		a {
+			pointer-events: none;
+			color: #212121;
+		}
+	}
+}
+
+/*===============================
+=            SIDEBAR            =
+================================*/
+
+.main-navigation .nav-menu li.current-menu-item > a,
+.main-navigation .nav-menu li.current_page_item > a {
+	color: #971f34;
+}
+
+.bottom-footer {
+	display: none;
+}
+
+.menu-search {
+	display: none;
+}
+
+.menu-social {
+	display: flex;
+	justify-content: space-around;
+	.social-icons {
+		display: flex;
+		a {
+			background: $red;
+			&:hover {
+				background: #212121;
+			}
+		}
+	}
+}
+
+#n2-ss-2-align {
+	max-width: 10000px !important;
+}
+
+.woocommerce {
+	a.button {
+		background-color: $red;
+		color: white;
+		&:hover {
+			background-color: #212121;
+			color: white;
+		}
+	}
+	ul.products[class*="columns-"] li.product,
+	.woocommerce-page ul.products[class*="columns-"] li.product {
+		min-width: 280px !important;
+	}
+	.woocommerce-result-count {
+		display: none;
+	}
+	select.orderby {
+		display: none;
+	}
+	.products {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.top-footer {
+	background-color: #971f34;
+	background-image: url("https://www.transparenttextures.com/patterns/random-grey-variations.png");
+
+	.tc-wrapper {
+		display: block;
+		align-items: center;
+		position: relative;
+
+		.col {
+			overflow: visible;
+		}
+
+		.cookout-logo {
+			position: absolute;
+			width: 40%;
+			bottom: 0;
+			right: -45px;
+		}
+	}
+	h2.widget-title {
+		display: none;
+	}
+	iframe {
+		width: 60%;
+		opacity: 0.85;
+	}
+}
+
+.header-r {
+	.cart {
+		background: transparent;
+		color: #212121;
+		&:hover {
+			background: transparent;
+			color: #212121;
+			.number {
+				background: transparent;
+			}
+		}
+		.number {
+			background: $red;
+		}
+	}
+	span.toggle-btn {
+		background: transparent;
+		&:hover {
+			background: transparent;
+		}
+		svg {
+			color: $red;
+		}
+	}
+}
+
+.thing-wrap {
+	@media (max-width: 700px) {
+		&:first-of-type {
+			display: block;
+		}
+	}
+
+	@media (max-width: 700px) {
+		&:nth-of-type(2) {
+			margin-bottom: 75px;
+		}
+	}
+}
+
+/*=============================
+=            ABOUT            =
+==============================*/
+.page-id-259 {
+	.entry-title {
+		margin-bottom: 20px !important;
+	}
+}
+
+.entry-title,
+.woocommerce-loop-product__title {
+	font-family: "Permanent Marker" !important;
+}
+
+#post-259 {
+	.tc-wrapper {
+		max-width: 900px;
+		padding: 0px 15px;
+		a {
+			font-weight: 500;
+			color: $red;
+		}
+	}
+}
