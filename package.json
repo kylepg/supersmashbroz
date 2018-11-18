@@ -7,14 +7,14 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"stage-theme":
-			"duck --username kylegeorge --password Q1jhDOOS9pX0 --upload ftp://kylepg.io/supersmashbroz.shop/wp-content/themes/ /Users/kyle/Dropbox/CODE/projects/supersmashbroz/wp-content/themes/perfect-portfolio-child --existing overwrite -y",
+			"duck --username kylegeorge --password s98WKXA6Qb4r --upload ftp://kylepg.io/supersmashbroz.com/wp-content/themes/ /Users/kyle/Dropbox/CODE/projects/supersmashbroz/wp-content/themes/perfect-portfolio-child --existing overwrite -y",
 		"stage-uploads":
-			"duck --username kylegeorge --password Q1jhDOOS9pX0 --upload ftp://kylepg.io/supersmashbroz.shop/wp-content/ /Users/kyle/Dropbox/CODE/projects/supersmashbroz/wp-content/uploads --existing overwrite -y",
+			"duck --username kylegeorge --password s98WKXA6Qb4r --upload ftp://kylepg.io/supersmashbroz.com/wp-content/ /Users/kyle/Dropbox/CODE/projects/supersmashbroz/wp-content/uploads --existing overwrite -y",
 		"stage": "npm run stage-theme && npm run stage-uploads",
 		"publish-theme":
-			"duck --username kylegeorge --password Q1jhDOOS9pX0 --upload ftp://kylepg.io/supersmashbroz.shop/wp-content/themes/ /Users/kyle/Dropbox/CODE/projects/supersmashbroz/wp-content/themes/perfect-portfolio-child --existing overwrite -y",
+			"duck --username kylegeorge --password s98WKXA6Qb4r --upload ftp://kylepg.io/supersmashbroz.com/wp-content/themes/ /Users/kyle/Dropbox/CODE/projects/supersmashbroz/wp-content/themes/perfect-portfolio-child --existing overwrite -y",
 		"publish-uploads":
-			"duck --username kylegeorge --password Q1jhDOOS9pX0 --upload ftp://kylepg.io/supersmashbroz.shop/wp-content/ /Users/kyle/Dropbox/CODE/projects/supersmashbroz/wp-content/uploads --existing overwrite -y",
+			"duck --username kylegeorge --password s98WKXA6Qb4r --upload ftp://kylepg.io/supersmashbroz.com/wp-content/ /Users/kyle/Dropbox/CODE/projects/supersmashbroz/wp-content/uploads --existing overwrite -y",
 		"publish": "npm run publish-theme && npm publish-uploads",
 		"dev":
 			"browser-sync start --proxy 'supersmashbroz.loc' --files 'wp-content/themes/perfect-portfolio/**/*' --no-notify"
