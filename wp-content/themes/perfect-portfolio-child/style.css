@@ -285,7 +285,7 @@ span.page-numbers.current {
 
 @keyframes noise {
   0%,
-    100% {
+	100% {
     background-position: 0 0; }
   10% {
     background-position: -5% -10%; }
@@ -308,6 +308,9 @@ span.page-numbers.current {
 /*===================================
 =            EVENTS PAGE            =
 ===================================*/
+.page-id-359 .entry-title {
+  margin-bottom: 40px !important; }
+
 #post-359 .nf-before-form-content {
   display: none; }
 #post-359 .nf-form-content {
@@ -327,3 +330,11 @@ span.page-numbers.current {
   font-weight: 300; }
   #post-359 .nf-field-element input[type="button"]:hover {
     background-color: #212121; }
+#post-359 .nf-response-msg p {
+  margin-bottom: 20px;
+  text-align: center; }
+@media (max-width: 700px) {
+  #post-359 .nf-form-wrap h5 {
+    font-size: 20px; }
+  #post-359 .nf-form-wrap p {
+    font-size: 16px; } }
